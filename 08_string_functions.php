@@ -48,6 +48,7 @@ if (str_ends_with($string, 'ld')) {
 
 // HTML Entities
 $string2 = '<h1>Hello World</h1>';
+echo htmlspecialchars($string2);
 echo htmlentities($string2);
 
 // Formatted Strings - useful when you have outside data
